@@ -1,0 +1,9 @@
+def multiply (input1, input2):
+	product = input1 * input2
+	print "The product of your two favorite numbers is %s" % product
+	
+
+first = int(raw_input("Favorite Number: "))
+second = int(raw_input("Second Favorite Number: "))
+
+multiply(first, second)
